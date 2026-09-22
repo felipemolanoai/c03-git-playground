@@ -72,4 +72,8 @@ export default defineConfig([
   },
 ])
 
+## Git practice
+
+Repository used to practice Git and GitHub workflows.
+
 ```
