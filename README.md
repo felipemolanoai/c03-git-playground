@@ -72,6 +72,10 @@ export default defineConfig([
   },
 ])
 
+## Collaboration practice
+
+This change was created remotely.
+
 ## Git practice
 
 Repository used to practice Git and GitHub workflows.
