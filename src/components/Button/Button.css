@@ -1,7 +1,5 @@
 .btn {
   font: inherit;
-  font-size: 16px;
-  padding: 8px 20px;
   border-radius: 6px;
   border: 2px solid var(--accent);
   cursor: pointer;
@@ -11,6 +9,18 @@
     opacity 0.2s;
 }
 
+/* Sizes */
+.btn--sm {
+  font-size: 14px;
+  padding: 4px 12px;
+}
+
+.btn--md {
+  font-size: 16px;
+  padding: 8px 20px;
+}
+
+/* Variants */
 .btn--primary {
   background: var(--accent);
   color: #fff;

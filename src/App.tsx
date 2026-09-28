@@ -40,6 +40,13 @@ function App() {
             Disabled
           </Button>
         </div>
+        <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
+          <Button size="sm">Small</Button>
+          <Button size="md">Medium</Button>
+          <Button variant="secondary" size="sm">
+            Small secondary
+          </Button>
+        </div>
       </section>
 
       <div className="ticks"></div>
