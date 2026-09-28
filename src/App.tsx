@@ -2,6 +2,7 @@ import { useState } from 'react'
 import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
+import Button from './components/Button/Button'
 import './App.css'
 
 function App() {
@@ -28,6 +29,17 @@ function App() {
         >
           Count is {count}
         </button>
+        <div style={{ display: 'flex', gap: '12px' }}>
+          <Button onClick={() => setCount((count) => count + 1)}>
+            Primary
+          </Button>
+          <Button variant="secondary" onClick={() => setCount(0)}>
+            Reset
+          </Button>
+          <Button variant="secondary" disabled>
+            Disabled
+          </Button>
+        </div>
       </section>
 
       <div className="ticks"></div>
