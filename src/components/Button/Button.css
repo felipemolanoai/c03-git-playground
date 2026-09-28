@@ -1,0 +1,50 @@
+.btn {
+  font: inherit;
+  border-radius: 6px;
+  border: 2px solid var(--accent);
+  cursor: pointer;
+  transition:
+    background-color 0.2s,
+    color 0.2s,
+    opacity 0.2s;
+}
+
+/* Sizes */
+.btn--sm {
+  font-size: 14px;
+  padding: 4px 12px;
+}
+
+.btn--md {
+  font-size: 16px;
+  padding: 8px 20px;
+}
+
+/* Variants */
+.btn--primary {
+  background: var(--accent);
+  color: #fff;
+}
+
+.btn--primary:hover:not(:disabled) {
+  opacity: 0.85;
+}
+
+.btn--secondary {
+  background: transparent;
+  color: var(--accent);
+}
+
+.btn--secondary:hover:not(:disabled) {
+  background: var(--accent-bg);
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--accent-border);
+  outline-offset: 2px;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
